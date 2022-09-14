@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: harbor.dev.afsmtddso.com/aalicea-harbor-project/app@sha256:aff2792dd32a2909c0571d0ed6cc7b4cce0e963fc8898df0c9921c63a4e70eb5
+        image: harbor.dev.afsmtddso.com/aalicea-harbor-project/app:6161420-278bd68
         ports:
         - containerPort: 5000
